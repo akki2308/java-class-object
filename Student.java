@@ -37,9 +37,9 @@ public class Student {
         System.out.println("Grade: " + grade);
     }
     public static void main(String[] args) {
-        Student s1 = new Student("John", "001", 85);
-        Student s2 = new Student("Alice", "002", 45);
-        Student s3 = new Student("Sam","003", 90);
+        Student s1 = new Student("Akshit", "001", 85);
+        Student s2 = new Student("Harsh", "002", 45);
+        Student s3 = new Student("Harshit+","003", 90);
 
         // Display the details of student
         System.out.println("----Student 1 details----");
