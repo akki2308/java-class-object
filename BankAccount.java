@@ -39,9 +39,9 @@ public class BankAccount {
 
     // Main method for testing
     public static void main(String[] args) {
-        BankAccount account1 = new BankAccount("John", "1234567890", 500.00);
-        BankAccount account2 = new BankAccount("Alice", "10293847465", 1275.90);
-        BankAccount account3 = new BankAccount("Sam", "9876543201", 1400.00);
+        BankAccount account1 = new BankAccount("Akshit", "1234567890", 500.00);
+        BankAccount account2 = new BankAccount("Srishti", "10293847465", 1275.90);
+        BankAccount account3 = new BankAccount("Harsh", "25478965201", 1400.00);
 
         System.out.println("-----Account 1 details-----");
         account1.displayBalance();
