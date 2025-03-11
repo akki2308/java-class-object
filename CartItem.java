@@ -29,9 +29,9 @@ public class CartItem {
     public static void main(String[] args) {
         CartItem cart = new CartItem();
 
-        cart.addItem("Apple", 0.99, 5);
-        cart.addItem("Banana", 0.59, 3);
-        cart.addItem("Orange", 1.29, 2);
+        cart.addItem("berries", 0.99, 5);
+        cart.addItem("grapes", 0.59, 3);
+        cart.addItem("mango", 1.29, 2);
 
         cart.displayTotalCost();
     }
